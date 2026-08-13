@@ -74,6 +74,7 @@ requirements.
 
 | Endpoint | Purpose |
 | --- | --- |
+| `GET /health` | Free no-key API-edge liveness check for integration tests and connectivity diagnostics |
 | `POST /public/parse` | Free no-key structured parsing for prototypes and evaluation; 12/minute and 100/day per client |
 | `POST /interpret` | Contextual reflection, structured dream, factor trace, provenance, diagnostics, timing, and attribution |
 | `POST /parse` | Entities, actions, emotions, locations, agency, threat, outcome, recurrence, and parser version without generating a reading |
