@@ -12,6 +12,7 @@ changed the reading.
 - Developer guide and access: <https://mydreamthreads.xyz/dream-interpretation-api>
 - Interactive API reference: <https://abdulrahimiqbal.github.io/dreamthreads-developer/>
 - OpenAPI 3.1: <https://mydreamthreads.xyz/dream-interpretation-api/openapi.json>
+- APIs.json 0.21 discovery index: <https://mydreamthreads.xyz/apis.json>
 - Postman collection: <https://mydreamthreads.xyz/dream-interpretation-api/postman.json>
 - AI tool manifest: <https://mydreamthreads.xyz/.well-known/ai-plugin.json>
 - Production base: `https://mydreamthreads.xyz/api/v1/dreamgraph`
@@ -56,8 +57,10 @@ curl https://mydreamthreads.xyz/api/v1/dreamgraph/interpret \
 See [`examples/`](examples/) for JavaScript, Python, and cURL clients. The
 machine-readable contract is [`openapi.json`](openapi.json), and
 [`postman_collection.json`](postman_collection.json) can be imported directly
-into Postman. [`ai-plugin.json`](ai-plugin.json) points compatible discovery
-tools to the canonical OpenAPI definition and safety requirements.
+into Postman. [`apis.json`](apis.json) publishes the authoritative discovery
+index for API catalogs and AI agents. [`ai-plugin.json`](ai-plugin.json) points
+compatible discovery tools to the canonical OpenAPI definition and safety
+requirements.
 
 ## Which kind of dream API is this?
 
