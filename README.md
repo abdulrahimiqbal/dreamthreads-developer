@@ -21,6 +21,7 @@ changed the reading.
 - Production base: `https://mydreamthreads.xyz/api/v1/dreamgraph`
 - Free no-key parser: `POST https://mydreamthreads.xyz/api/v1/dreamgraph/public/parse`
 - Free dream journal templates: <https://mydreamthreads.xyz/dream-journal/template>
+- Open dream-search dataset and methodology: [`research/`](research/)
 
 ## Free quickstart—no API key
 
@@ -43,9 +44,9 @@ response headers.
 
 ## Public dream MCP server—no API key
 
-Connect a compatible Model Context Protocol client to the Streamable HTTP URL
 Read the [dream MCP server guide](https://mydreamthreads.xyz/dream-mcp-server),
-then connect a compatible client to `https://mydreamthreads.xyz/mcp`. The server exposes two bounded, read-only
+then connect a compatible Model Context Protocol client to the Streamable HTTP
+URL `https://mydreamthreads.xyz/mcp`. The server exposes two bounded, read-only
 tools:
 
 - `parse_dream` extracts structured dream context without storing dream text;
@@ -133,6 +134,14 @@ free public field kit in four formats:
 
 The canonical guide explains every field and how to use it:
 <https://mydreamthreads.xyz/dream-journal/template>.
+
+## Open dream-search research
+
+The [`research/`](research/) directory mirrors DreamThreads' citeable 2026 dream
+search-interest dataset and its reproducible methodology. It also explains why
+Google Trends cannot supply a single authoritative global monthly-search count
+for “dream meaning.” The canonical analysis is
+[Dream Meaning Global Monthly Searches and Search Trends 2026](https://mydreamthreads.xyz/dream-trends/2026).
 
 ## Support
 
