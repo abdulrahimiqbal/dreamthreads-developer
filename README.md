@@ -11,6 +11,8 @@ changed the reading.
 
 - Developer guide and access: <https://mydreamthreads.xyz/dream-interpretation-api>
 - OpenAPI 3.1: <https://mydreamthreads.xyz/dream-interpretation-api/openapi.json>
+- Postman collection: <https://mydreamthreads.xyz/dream-interpretation-api/postman.json>
+- AI tool manifest: <https://mydreamthreads.xyz/.well-known/ai-plugin.json>
 - Production base: `https://mydreamthreads.xyz/api/v1/dreamgraph`
 - Free dream journal templates: <https://mydreamthreads.xyz/dream-journal/template>
 
@@ -31,7 +33,18 @@ curl https://mydreamthreads.xyz/api/v1/dreamgraph/interpret \
 ```
 
 See [`examples/`](examples/) for JavaScript, Python, and cURL clients. The
-machine-readable contract is [`openapi.json`](openapi.json).
+machine-readable contract is [`openapi.json`](openapi.json), and
+[`postman_collection.json`](postman_collection.json) can be imported directly
+into Postman. [`ai-plugin.json`](ai-plugin.json) points compatible discovery
+tools to the canonical OpenAPI definition and safety requirements.
+
+## Which kind of dream API is this?
+
+| Search term | Typical contract | DreamThreads |
+| --- | --- | --- |
+| Dream interpretation API | Dream text in; a user-facing reading out | Yes—tentative reflection plus a factor trace |
+| Dream analysis API | Structured factors and reasoning | Yes—parsed context, reason trace, and typed provenance |
+| Dream dictionary API | One symbol mapped to one fixed definition | Intentionally no—context can change the reading |
 
 ## Endpoints
 
