@@ -13,7 +13,8 @@ changed the reading.
 - Interactive API reference: <https://abdulrahimiqbal.github.io/dreamthreads-developer/>
 - OpenAPI 3.1: <https://mydreamthreads.xyz/dream-interpretation-api/openapi.json>
 - APIs.json 0.21 discovery index: <https://mydreamthreads.xyz/apis.json>
-- Public MCP server: `https://mydreamthreads.xyz/mcp`
+- Dream MCP server guide: <https://mydreamthreads.xyz/dream-mcp-server>
+- Public MCP endpoint: `https://mydreamthreads.xyz/mcp`
 - MCP registry manifest: <https://mydreamthreads.xyz/.well-known/mcp/server.json>
 - Postman collection: <https://mydreamthreads.xyz/dream-interpretation-api/postman.json>
 - AI tool manifest: <https://mydreamthreads.xyz/.well-known/ai-plugin.json>
@@ -40,10 +41,11 @@ The public endpoint supports CORS and is limited to 12 requests per minute and
 100 requests per day per client. Rate-limit state is returned in standard
 response headers.
 
-## Public MCP server—no API key
+## Public dream MCP server—no API key
 
 Connect a compatible Model Context Protocol client to the Streamable HTTP URL
-`https://mydreamthreads.xyz/mcp`. The server exposes two bounded, read-only
+Read the [dream MCP server guide](https://mydreamthreads.xyz/dream-mcp-server),
+then connect a compatible client to `https://mydreamthreads.xyz/mcp`. The server exposes two bounded, read-only
 tools:
 
 - `parse_dream` extracts structured dream context without storing dream text;
