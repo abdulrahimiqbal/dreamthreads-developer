@@ -10,6 +10,7 @@ action, threat, outcome, recurrence, and context—and exposes the factors that
 changed the reading.
 
 - Developer guide and access: <https://mydreamthreads.xyz/dream-interpretation-api>
+- Interactive API reference: <https://abdulrahimiqbal.github.io/dreamthreads-developer/>
 - OpenAPI 3.1: <https://mydreamthreads.xyz/dream-interpretation-api/openapi.json>
 - Postman collection: <https://mydreamthreads.xyz/dream-interpretation-api/postman.json>
 - AI tool manifest: <https://mydreamthreads.xyz/.well-known/ai-plugin.json>
