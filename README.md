@@ -15,9 +15,29 @@ changed the reading.
 - Postman collection: <https://mydreamthreads.xyz/dream-interpretation-api/postman.json>
 - AI tool manifest: <https://mydreamthreads.xyz/.well-known/ai-plugin.json>
 - Production base: `https://mydreamthreads.xyz/api/v1/dreamgraph`
+- Free no-key parser: `POST https://mydreamthreads.xyz/api/v1/dreamgraph/public/parse`
 - Free dream journal templates: <https://mydreamthreads.xyz/dream-journal/template>
 
-## Quickstart
+## Free quickstart—no API key
+
+The public parser is useful for prototypes, classrooms, evaluations, and
+low-volume tools. It returns structured dream factors, not a generated
+interpretation. Dream text is processed in memory and is not stored or added to
+the contribution corpus.
+
+```bash
+curl https://mydreamthreads.xyz/api/v1/dreamgraph/public/parse \
+  -H "Content-Type: application/json" \
+  -d '{
+    "text": "I watched a snake in my garden. I felt peaceful."
+  }'
+```
+
+The public endpoint supports CORS and is limited to 12 requests per minute and
+100 requests per day per client. Rate-limit state is returned in standard
+response headers.
+
+## Contextual interpretation quickstart
 
 Partner keys belong in a server-side secret manager. Never expose one in
 browser JavaScript.
@@ -51,6 +71,7 @@ tools to the canonical OpenAPI definition and safety requirements.
 
 | Endpoint | Purpose |
 | --- | --- |
+| `POST /public/parse` | Free no-key structured parsing for prototypes and evaluation; 12/minute and 100/day per client |
 | `POST /interpret` | Contextual reflection, structured dream, factor trace, provenance, diagnostics, timing, and attribution |
 | `POST /parse` | Entities, actions, emotions, locations, agency, threat, outcome, recurrence, and parser version without generating a reading |
 
@@ -69,6 +90,7 @@ script and no long-lived key in browser code. Request either path through the
 ## Privacy and safety
 
 - Interpretations are reflective—not diagnostic, predictive, or fixed truths.
+- The public parser does not store submitted dream text or create a DreamGraph contribution.
 - API dream text is not added to the DreamGraph contribution corpus.
 - Integrators must provide the disclosure and obtain the consent their use case
   requires.

@@ -28,6 +28,47 @@
   ],
   "item": [
     {
+      "name": "Parse a dream for free (no key)",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "X-Request-ID",
+            "value": "postman-{{$guid}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"text\": \"I watched a snake in my garden. I felt peaceful.\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/public/parse",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "public",
+            "parse"
+          ]
+        },
+        "description": "Free, bounded structured parsing without an API key. Dream text is processed in memory and is not stored or contributed. Limited to 12 requests per minute and 100 per day per client."
+      }
+    },
+    {
       "name": "Interpret a dream",
       "request": {
         "method": "POST",
