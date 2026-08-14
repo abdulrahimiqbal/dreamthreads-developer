@@ -59,6 +59,8 @@ fixed symbolic meanings. Its official-registry metadata is [`server.json`](serve
 The live remote is independently discoverable through the
 [official MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.abdulrahimiqbal%2Fdreamthreads)
 and the [Glama MCP connector directory](https://glama.ai/mcp/connectors/io.github.abdulrahimiqbal/dreamthreads).
+Its current third-party maturity and trust-screen record is published by
+[MCP Index](https://mcpindex.ai/server/io-github-abdulrahimiqbal-dreamthreads).
 
 ## Contextual interpretation quickstart
 
