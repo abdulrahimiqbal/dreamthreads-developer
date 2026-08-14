@@ -54,6 +54,9 @@ tools:
 
 The server does not generate diagnoses, predictions, supernatural claims, or
 fixed symbolic meanings. Its official-registry metadata is [`server.json`](server.json).
+The live remote is independently discoverable through the
+[official MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.abdulrahimiqbal%2Fdreamthreads)
+and the [Glama MCP connector directory](https://glama.ai/mcp/connectors/io.github.abdulrahimiqbal/dreamthreads).
 
 ## Contextual interpretation quickstart
 
