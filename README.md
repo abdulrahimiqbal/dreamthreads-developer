@@ -1,7 +1,8 @@
-# DreamThreads Dream Interpretation API
+# DreamThreads Dream MCP Server + Interpretation API
 
-Build context-aware dream analysis into a journal, sleep product, publication,
-research tool, community, or AI agent.
+Connect an AI agent to a free remote dream MCP server, or build context-aware
+dream analysis into a journal, sleep product, publication, research tool, or
+community through the DreamThreads API.
 
 The DreamThreads Dream Interpretation API accepts dream text plus optional
 waking-life or physiological context and returns a tentative reflection as
@@ -16,6 +17,7 @@ changed the reading.
 - Dream MCP server guide: <https://mydreamthreads.xyz/dream-mcp-server>
 - Public MCP endpoint: `https://mydreamthreads.xyz/mcp`
 - MCP registry manifest: <https://mydreamthreads.xyz/.well-known/mcp/server.json>
+- Conventional MCP discovery manifest: <https://mydreamthreads.xyz/.well-known/mcp.json>
 - Postman collection: <https://mydreamthreads.xyz/dream-interpretation-api/postman.json>
 - AI tool manifest: <https://mydreamthreads.xyz/.well-known/ai-plugin.json>
 - Production base: `https://mydreamthreads.xyz/api/v1/dreamgraph`
