@@ -1,4 +1,4 @@
-# Dream meaning global monthly searches and search trends (2026)
+# Dream meaning monthly searches: global volume and trends (2026)
 
 This directory publishes the open data behind DreamThreads' connected comparison
 of 15 exact dream-related Google search terms in the United States.
@@ -37,8 +37,8 @@ on the [canonical DreamThreads analysis](https://mydreamthreads.xyz/dream-trends
 
 ## Citation
 
-DreamThreads (2026). “Dream Meaning Global Monthly Searches and Search Trends
-2026.” Analysis of US Google Trends data, updated August 13, 2026.
+DreamThreads (2026). “Dream Meaning Monthly Searches: Global Volume and Trends
+2026.” Analysis of US Google Trends data, updated August 14, 2026.
 
 The data and findings may be quoted with attribution and a link to the canonical
 analysis. Search interest does not measure dream prevalence, clinical importance,

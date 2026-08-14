@@ -141,7 +141,7 @@ The [`research/`](research/) directory mirrors DreamThreads' citeable 2026 dream
 search-interest dataset and its reproducible methodology. It also explains why
 Google Trends cannot supply a single authoritative global monthly-search count
 for “dream meaning.” The canonical analysis is
-[Dream Meaning Global Monthly Searches and Search Trends 2026](https://mydreamthreads.xyz/dream-trends/2026).
+[Dream Meaning Monthly Searches: Global Volume and Trends 2026](https://mydreamthreads.xyz/dream-trends/2026).
 
 ## Support
 
